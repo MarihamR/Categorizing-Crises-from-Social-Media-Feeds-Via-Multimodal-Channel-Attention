@@ -23,6 +23,7 @@
 ## Acknowledgements
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
 + [senet.pytorch](https://github.com/moskomule/senet.pytorch)
++ [focal_loss_pytorch](https://github.com/clcarwin/focal_loss_pytorch)
 
 ## Citation
 If you find this project helpful for your research, please consider citing the following BibTeX entry.
