@@ -1,10 +1,12 @@
 # Categorizing-Crises-from-Social-Media-Feeds-Via-Multimodal-Channel-Attention
 [Categorizing-Crises-from-Social-Media-Feeds-Via-Multimodal-Channel-Attention](https://ieeexplore.ieee.org/document/10179859)
+![Images/Model.png](Images/Model.png)
 
 ## Datasets
 - CrisisMMD dataset version v2.0 with agreed labels annotation [CrisisMMD Dataset Link](https://crisisnlp.qcri.org/crisismmd)
 - Damage Multimodal Dataset (DMD) [DMD Dataset Link](https://archive.ics.uci.edu/dataset/456/multimodal+damage+identification+for+humanitarian+computing). <br>
   Also,We created  Datasplits for 4-fold cross validation, following crisisMMD datasplits structure and shared in this [link](https://drive.google.com/file/d/17pVoi26BmXlxiUT5ru-jiECXi5A_Poxk/view?usp=sharing)
+- The datasets should be listed in datasets directory and organized as follows:
 
 ```bash
 ./datasets
