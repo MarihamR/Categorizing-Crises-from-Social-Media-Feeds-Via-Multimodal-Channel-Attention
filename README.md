@@ -6,6 +6,18 @@
 - Damage Multimodal Dataset (DMD) [DMD Dataset Link](https://archive.ics.uci.edu/dataset/456/multimodal+damage+identification+for+humanitarian+computing). <br>
   Also,We created  Datasplits for 4-fold cross validation, following crisisMMD datasplits structure and shared in this [link](https://drive.google.com/file/d/17pVoi26BmXlxiUT5ru-jiECXi5A_Poxk/view?usp=sharing)
 
+```bash
+./datasets
+├── CrisisMMD_v2.0
+│   ├── annotations
+│   ├── crisismmd_datasplit_agreed_label
+│   ├── crisismmd_datasplit_all
+│   └── data_image
+└── DMD_BERUIT
+    ├── DMD_Datasplits
+    └── multimodal
+```
+
 ## Acknowledgements
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
 + [senet.pytorch](https://github.com/moskomule/senet.pytorch)
