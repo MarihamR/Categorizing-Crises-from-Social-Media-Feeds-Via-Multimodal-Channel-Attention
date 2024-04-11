@@ -4,12 +4,12 @@
 ## Datasets
 
 ## Acknowledgements
--[Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
--[senet.pytorch](https://github.com/moskomule/senet.pytorch)
++ [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
++ [senet.pytorch](https://github.com/moskomule/senet.pytorch)
 
 ## Citation
 If you find this project helpful for your research, please consider citing the following BibTeX entry.
-```
+```bibtex
 @ARTICLE{10179859,
   author={Rezk, Mariham and Elmadany, Noureldin and Hamad, Radwa K. and Badran, Ehab F.},
   journal={IEEE Access}, 
