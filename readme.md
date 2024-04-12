@@ -51,8 +51,17 @@ python3 main.py  [options]
                         for loading weights of pretrained visual model in test phase if mode=='image_only'.
   --text_model_to_load TEXT_MODEL_TO_LOAD
                         for loading weights of pretrained textual model in test phase if mode=='text_only'.
-  you can check the rest of arguments in this file [args.py](args.py)
 ```
+ + You can check the rest of arguments in this file [args.py](args.py)
+### Example:
+```
+#training
+python3 main.py --task task1 --mode both --batch_size 16 --model_name 'task1/featurefusion/MCA' --max_iter 50
+
+#testing
+python3 main.py --task task1 --mode both --batch_size 16 --model_name 'task1/featurefusion/MCA' --eval --model_to_load './output/task1/featurefusion/MCA/best.pt' --pred_file 'predictionVsGroundtruth'
+```
+
 ## Acknowledgements
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
 + [senet.pytorch](https://github.com/moskomule/senet.pytorch)
