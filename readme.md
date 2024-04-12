@@ -25,7 +25,7 @@ python==3.9.12 , torch>=1.11.0 , torchvision==0.15.2 and transformers==4.11.3
 
 ## Usage
 ```
-python3 main.py  [options]
+python3 main.py  [Arguments]
 
   Arguments:
   --task {'task1', 'task2', 'task2_merged','task3','DMD'}
@@ -44,7 +44,7 @@ python3 main.py  [options]
   Testing Arguments:
   --eval                for skipping training and only predict on val test sets.
   --pred_file PRED_FILE
-                        for Saving final logits and predictions of models in csv and mat files.
+                        for Saving final logits and predictions of models in csv and mat files for ScoreFusion the results.
   --model_to_load FUSED_MODEL_TO_LOAD
                         for loading weights of pretrained fused model in test phase if mode=='both'.
   --image_model_to_load IMAGE_MODEL_TO_LOAD
@@ -61,6 +61,7 @@ python3 main.py --task task1 --mode both --batch_size 16 --model_name 'task1/fea
 #testing
 python3 main.py --task task1 --mode both --batch_size 16 --model_name 'task1/featurefusion/MCA' --eval --model_to_load './output/task1/featurefusion/MCA/best.pt' --pred_file 'predictionVsGroundtruth'
 ```
+
 
 ## Acknowledgements
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
