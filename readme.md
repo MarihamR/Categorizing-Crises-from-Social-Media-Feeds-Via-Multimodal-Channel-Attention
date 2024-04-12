@@ -64,6 +64,7 @@ python3 main.py --task task1 --mode both --batch_size 16 --model_name 'task1/fea
 
 
 ## Acknowledgements
+Parts of the code have been re-used from the following repositories:
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
 + [senet.pytorch](https://github.com/moskomule/senet.pytorch)
 + [focal_loss_pytorch](https://github.com/clcarwin/focal_loss_pytorch)
