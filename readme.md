@@ -24,7 +24,35 @@
 python==3.9.12 , torch>=1.11.0 , torchvision==0.15.2 and transformers==4.11.3
 
 ## Usage
+```
+python3 main.py  [options]
 
+  Arguments:
+  --task {'task1', 'task2', 'task2_merged','task3','DMD'}
+                        choosing which task from CrisisMMD 3 tasks and DMD only task.
+  --mode {'both', 'image_only', 'text_only'}
+                         unimodal or multimodal models.
+  --model_name MODEL_NAME         
+                        Name of Model Directory to be saved in.
+  --batch_size BATCH_SIZE
+                        (default: 64)
+  --learning_rate LEARNING_RATE
+                        (default: 2e-4)
+  --max_iter MAX_ITER
+                        Number of training epochs. (default: 300)
+
+  Testing Arguments:
+  --eval                for skipping training and only predict on val test sets.
+  --pred_file PRED_FILE
+                        for Saving final logits and predictions of models in csv and mat files.
+  --model_to_load FUSED_MODEL_TO_LOAD
+                        for loading weights of pretrained fused model in test phase if mode=='both'.
+  --image_model_to_load IMAGE_MODEL_TO_LOAD
+                        for loading weights of pretrained visual model in test phase if mode=='image_only'.
+  --text_model_to_load TEXT_MODEL_TO_LOAD
+                        for loading weights of pretrained textual model in test phase if mode=='text_only'.
+  you can check the rest of arguments in this file [args.py](args.py)
+```
 ## Acknowledgements
 + [Multimodal-Categorization-of-Crisis-Events-in-Social-Media](https://github.com/PaulCCCCCCH/Multimodal-Categorization-of-Crisis-Events-in-Social-Media)
 + [senet.pytorch](https://github.com/moskomule/senet.pytorch)
