@@ -21,7 +21,7 @@
 ```
 
 ## Requirements
-python==3.9.12 , torch==1.11.0 , torchvision==0.15.2 
+python==3.9.12 , torch>=1.11.0 , torchvision==0.15.2 and transformers==4.11.3
 
 ## Usage
 
