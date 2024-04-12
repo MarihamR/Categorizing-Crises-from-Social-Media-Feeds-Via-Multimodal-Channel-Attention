@@ -10,25 +10,16 @@ def get_args():
     parser.add_argument('--task', choices=['task1', 'task2', 'task2_merged','task3'])
     parser.add_argument('--learning_rate', default=2e-4, type=float)
     parser.add_argument('--batch_size', default=64, type=int)
+    parser.add_argument('--max_iter', default=300, type=int)
+    
     parser.add_argument('--save_dir', default='./output', type=str)
     parser.add_argument('--model_name', default='', type=str)
     parser.add_argument('--pred_file', default=None, type=str)
-
-    parser.add_argument('--with_sse', action='store_true')
-
-    # only used when with_sse set
-    parser.add_argument('--pv', default=1000, type=int)
-    parser.add_argument('--pt', default=1000, type=int)
-    parser.add_argument('--pv0', default=0.3, type=float)
-    parser.add_argument('--pt0', default=0.7, type=float)
 
     # Loading model 
     parser.add_argument('--model_to_load', default='')
     parser.add_argument('--image_model_to_load', default='')
     parser.add_argument('--text_model_to_load', default='')
-
-
-    parser.add_argument('--max_iter', default=300, type=int)
 
     # -------------- Default ones --------------- #
     # Running configs
